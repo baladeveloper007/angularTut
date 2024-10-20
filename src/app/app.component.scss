@@ -1,0 +1,26 @@
+/* styles.css */
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* This arranges the list items in a row */
+  }
+  
+  .nav-list li {
+    margin-right: 20px; /* Space between the links */
+  }
+  
+  .active-link {
+    font-weight: bold;
+    color: red; /* Style for active link */
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: black; /* Default link color */
+  }
+  
+  .nav-list a:hover {
+    color: blue; /* Color on hover */
+  }
+  
